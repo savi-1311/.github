@@ -1,0 +1,35 @@
+name: ➕ Feature request 
+about: Suggest a new feature for this project
+title: "[Feature]: "
+labels: ["feature"]
+assignees: ''
+
+body:
+  - type: markdown
+    attributes:
+      value:
+        Thanks for taking the time to request a new feature 🤗
+        
+  - type: textarea
+    id: feature-description
+    attributes:
+      label: Is your feature request related to an issue? Please describe.
+      description: A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
+    validations:
+      required: true
+      
+  - type: textarea
+    id: solution
+    attributes:
+      label: Describe the solution you'd like
+      description: A clear and concise description of what you want to happen.
+    validations:
+      required: true
+      
+  - type: textarea
+    id: additional-information
+    attributes:
+      label: Additional Information
+      description: |
+        Provide any additional information such as logs, screenshots and environment description.
+
